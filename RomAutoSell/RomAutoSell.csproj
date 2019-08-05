@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RomController\RomController\RomController.csproj">
+      <Project>{3f8db507-42e6-4f66-8211-b88d4d07a040}</Project>
+      <Name>RomController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RomController\ShComp\ShComp.csproj">
+      <Project>{c2ccf9c4-f928-4296-9e61-c18f9e92374d}</Project>
+      <Name>ShComp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
