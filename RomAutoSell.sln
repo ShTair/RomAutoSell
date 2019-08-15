@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomController", "RomControl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShComp", "RomController\ShComp\ShComp.csproj", "{C2CCF9C4-F928-4296-9E61-C18F9E92374D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomUseAll", "RomUseAll\RomUseAll.csproj", "{3688CC16-5F0F-42EF-B603-BA758F41F0BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C2CCF9C4-F928-4296-9E61-C18F9E92374D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2CCF9C4-F928-4296-9E61-C18F9E92374D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2CCF9C4-F928-4296-9E61-C18F9E92374D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3688CC16-5F0F-42EF-B603-BA758F41F0BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3688CC16-5F0F-42EF-B603-BA758F41F0BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3688CC16-5F0F-42EF-B603-BA758F41F0BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3688CC16-5F0F-42EF-B603-BA758F41F0BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
