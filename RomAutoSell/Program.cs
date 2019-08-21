@@ -31,8 +31,6 @@ namespace RomAutoSell
             for (int i = 0; i < count; i++)
             {
                 var c = (num - 1) / (count - i) + 1;
-                if (c > 1000) c = 999;
-
                 num -= c;
                 Console.WriteLine($"{i + 1}回目の出品です。{c}個出品して、残り{num}個です。");
 
