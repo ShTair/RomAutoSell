@@ -35,11 +35,11 @@ namespace RomAutoSell
                 Console.WriteLine($"{i + 1}回目の出品です。{c}個出品して、残り{num}個です。");
 
                 w.SellCountBox.Click();
-                await Task.Delay(300);
+                await Task.Delay(1000);
 
-                Keyboard.SendKey(0x2e);
+                Keyboard.SendKey(0x8);
                 Keyboard.SendKey(25);
-                await Task.Delay(300);
+                await Task.Delay(500);
 
                 Keyboard.SendKeys(c.ToString());
                 await Task.Delay(300);
